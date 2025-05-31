@@ -20,7 +20,7 @@ tagline: Edward Christian is a public servant and cybersecurity professional. Th
 
 description: Explore my professional profile, blog, and projects in cybersecurity, tech policy, and federal service
 
-favicon: /assets/img/favicons/favicon.png
+favicon: https://christianonsecurity.com/assets/img/favicons/favicon.png 
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
