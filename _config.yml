@@ -34,7 +34,6 @@ twitter:
 
 social:
   type: "website"
-  favicon: https://christianonsecurity.com/assets/img/preview_fav.png
   image: https://christianonsecurity.com/assets/img/preview.png  # Your preview image
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
