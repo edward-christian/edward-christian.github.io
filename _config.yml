@@ -16,6 +16,8 @@ timezone:
 
 title: Christian on Security # the main title
 
+favicon: /assets/img/preview_fav.png
+
 tagline: Edward Christian is a public servant and cybersecurity professional. This website contains his CV, blog, essays, and project documentation. # it will display as the subtitle
 
 description: Explore my professional profile, blog, and projects in cybersecurity, tech policy, and federal service
@@ -30,12 +32,9 @@ github:
 twitter:
   username: virtualizeded
 
-linkedin:
-  username: 
-
 social:
   type: "website"
-  image: /assets/img/preview.png  # Your preview image
+  image: https://christianonsecurity.com/assets/img/preview.png  # Your preview image
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Edward Christian
