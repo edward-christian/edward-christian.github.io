@@ -18,8 +18,7 @@ title: Christian on Security # the main title
 
 tagline: Edward Christian is a public servant and cybersecurity professional. This website contains his CV, blog, essays, and project documentation. # it will display as the subtitle
 
-description: >- # used by seo meta and the atom feed
-  A minimal, responsive and feature-rich Jekyll theme for technical writing.
+description: Explore my professional profile, blog, and projects in cybersecurity, tech policy, and federal service
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -35,6 +34,8 @@ linkedin:
   username: 
 
 social:
+  type: "website"
+  image: /assets/img/preview.png  # Your preview image
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
   name: Edward Christian
