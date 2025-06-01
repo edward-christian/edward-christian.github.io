@@ -24,7 +24,8 @@ favicon: https://christianonsecurity.com/assets/img/favicons/favicon.png
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+baseurl: "/edward-christian.github.io"
+
 
 github:
   username: edward-christian # change to your GitHub username
