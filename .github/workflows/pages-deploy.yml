@@ -1,9 +1,8 @@
-name: Deploy Jekyll site to Pages
+name: Deploy Jekyll site to GitHub Pages
 
 on:
   push:
-    branches:
-      - main  # or your default branch
+    branches: [main]
 
 permissions:
   contents: read
@@ -17,7 +16,6 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -34,6 +32,9 @@ jobs:
       - name: Build site
         run: bundle exec jekyll build
 
+      - name: List _site contents
+        run: ls -R _site || echo "_site missing!"
+
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -49,4 +50,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v3
-
