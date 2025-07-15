@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Things to Come",
+    "url": "/posts/my-first-post/",
+    "categories": "blog",
+    "tags": "github, home lab, jekyll",
+    "date": "2025-05-31 06:00:00 -0400",
+    "content": "Hello world! This is my first post on my Github pages site using Jekyll&#39;s &quot;Chirpy&quot; theme. Getting a custom domain in place and customizing the site code a bit was easier than I expected! This came ..."
+  }
+  
+]
+
